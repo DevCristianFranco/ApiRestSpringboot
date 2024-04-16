@@ -37,11 +37,13 @@ Ejecuta la aplicación Spring Boot utilizando el comando mvn spring-boot:run o d
 
 ## Ejecucion Simple: 
 
-Descarga el vigilancia-0.0.1-SNAPSHOT.jar 
+Descarga el dist/vigilancia-0.0.1-SNAPSHOT.jar 
 
 Ejecuta en la consola **_java -jar vigilancia-0.0.1-SNAPSHOT.jar_** para iniciar el servidor
 
 Navega a la url [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+
+![Swagger](./img/Captura.PNG)
 
 ## Contribución:
 
