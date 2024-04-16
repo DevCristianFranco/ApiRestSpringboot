@@ -19,6 +19,7 @@ Recepción de Mensajes: La API proporciona puntos finales para recibir mensajes 
 
 Completado de Mensajes: Permite marcar mensajes como completados una vez que se han procesado.
 
+![MensajeClass UML clases](https://www.plantuml.com/plantuml/png/ZP7DJW8n58NtynGdSGD6Ne2u07yaBem4V85hEOwNz0VlBInyUZMEefbPi6hI-tsdxUdCgrZTfzW4jH29-V9-HQzDyq1tQRcc7JGGKqnQrZlD4hl9QDndphPUCbOCUc0tzD7NtX3x3pjIGuaBrkEfkLJ2j7sjKypVzWfDkyZ4N2KLHnHehhGNUSU6kBgvW6i6qxDOMx0J4p22MrhGe0LHFY7Ggu0PYQcOocy1roLNAp7ICCNFlVnx7MH6oyVrqtYm11XzLxAVBfxaBMvxsX-bwRuKvvC9Ulv0ukMHwzxRp9Wt-nG_0000)
 
 ## Tecnologías Utilizadas:
 
