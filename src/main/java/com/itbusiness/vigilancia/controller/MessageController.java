@@ -18,13 +18,13 @@ public class MessageController {
 
     @PostMapping("message/")
     @Operation(summary = "Se pueda obtener el mensaje que se emite.")
-    public ResponseEntity<OutputMessage> reciveMessages(@RequestBody InputDevices input) {
+    public ResponseEntity<OutputMessage> ReciveMessages(@RequestBody InputDevices input) {
         return service.ReciveMessages(input);
     }
 
     @PostMapping("message_split/{device_id}")
     @Operation(summary = "Almacena los diferentes mensajes recibidos para luego armar el resultado")
-    public ResponseEntity reciveMessage(
+    public ResponseEntity ReciveMessage(
             @PathVariable(required=true,name="device_id") int device_id,
             @RequestBody DeviceMessageId deviceMessageId) {
         return service.ReciveMessage(deviceMessageId, device_id);
@@ -32,7 +32,7 @@ public class MessageController {
 
     @GetMapping("message_split/")
     @Operation(summary = "Responde si fue posible construir el mensaje a partir de los mensajes almacenados")
-    public ResponseEntity<OutputMessage> reciveMessage() {
+    public ResponseEntity<OutputMessage> ReciveMessage() {
         return service.GetMessage();
     }
 }
