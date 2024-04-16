@@ -4,7 +4,14 @@
 
 Este repositorio contiene el código fuente de una API REST desarrollada en Spring Boot para la gestión de mensajes. La API permite recibir mensajes entrantes, completarlos.
 
+#### POST Message
 ![Mensaje UML secuencia](https://www.plantuml.com/plantuml/png/SoWkIImgAStDuKfCBialKaZEoKpDAqdbIielpKj9BAfKo4qjBavCJ-M2IkZQmKIi50ByWqEue3m5e0H42L0Yo3KumDyls5N1sT_5rKh1oC10Hy44H9WQ670vfEQb0Eq30000)
+
+#### POST Message Split
+![MensajeSplit UML secuencia](https://www.plantuml.com/plantuml/png/SoWkIImgAStDuKfCBialKaZEoKpDAqdbIielpKj9BAfKo4qjBavCJuqlBiZ9BE5AIIn9J4eiJeK95tD1DUZQeQgqKWZm3mxXGX5JG2WgHfK1Ia3DiL88SWqEyFSBTbLmzdTnjL8mCZ3GKJ014QO61bmEgNafGCS20000)
+
+#### GET Message Split
+![MensajeSplit2 UML secuencia](https://www.plantuml.com/plantuml/png/SoWkIImgAStDuKfCBialKaZEoKpDAqdbIielpKj9BAfKo4qjBavCJuqlBiZ9BE5AIIn9J4eiJeK95tD1DUZQeQgqKd1t3U62gL90b-P2uG5beSPOAGIv1WVu-mMxAZZxkxXQAHWP6EWec808KmC3BeVKl1IWMm40)
 
 ## Características:
 
